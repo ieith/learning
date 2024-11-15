@@ -1,0 +1,27 @@
+img {
+  height:150px; 
+} /* Adjusts image height */
+
+.description {
+  font-size: 20px;
+} /* adjust font size for all with class 'description' */
+
+#cook-time {
+  font-weight: bold;
+} /* adjust style for item with ID 'cook-time' */
+
+.ingredients {
+  list-style: square;
+} /* change the bullet points to squares */
+
+p.time {
+  color: gray;
+} /* turn 'time' elements grey */
+
+.external-link {
+  color: SeaGreen;
+} /* turns the link with this class to sea green */
+
+* {
+  font-family: Helvetica;
+} /* font-family to ALL text */

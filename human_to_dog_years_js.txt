@@ -1,0 +1,10 @@
+const myAge = 45; //this is my age//
+let earlyYears = 2; //this apparently will change//
+earlyYears *= 10.5; //multiplication assignment//
+let laterYears = myAge - 2; //already accounted for the first two years//
+laterYears *= 4; //multiplication assignment//
+/*console.log(earlyYears);
+console.log(laterYears);*/
+let myAgeInDogYears = earlyYears + laterYears; //it adds the value for the two together//
+let myName = 'Dewi'.toLowerCase(); //this will lowercase my name//
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`); //look how i used string interpolation//
