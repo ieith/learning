@@ -1,0 +1,33 @@
+/*use padding and margins to make the teal and purple blocks float in the box. Blocks are default 100px high and wide.*/
+
+.block {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+/*height and width set to accomodate margin reqs for blocks.*/
+#container{
+  background-color: #F4E8C1;
+ 	position: absolute; /*set it to this to keep it stuck in one place*/
+  width: 450px;
+  height: 550px;
+}
+
+/*needs to be 100 high and 200 wide, with a left margin and top margin of 100*/
+#teal {
+  background-color: #A8D0DB;
+  padding: 0px 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+
+}
+
+/*needs to be 200 high and 200 wide, with a left margin and top margin of 100, and a bottom margin of 50*/
+#purple {
+  background-color: #414073;
+  padding: 50px 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
