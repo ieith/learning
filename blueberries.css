@@ -1,0 +1,18 @@
+/*making a breadcrumb for the given html (not shown here)*/
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li.location a {
+  text-decoration: underline;
+}
+
+.breadcrumb li.location+li.location::before {
+  content:">";
+}
+
+.breadcrumb li.attribute a {
+  text-decoration: overline;
+  color: green;
+}
