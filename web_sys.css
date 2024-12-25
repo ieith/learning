@@ -1,0 +1,95 @@
+/*Colours*/
+
+.palette li{
+    display: inline-block;
+    margin: 2px;
+    padding: 50px 100px;
+}
+
+.blue {
+    background-color: blue;
+    color: orange;
+}
+
+.oran {
+    background-color: orange;
+    color: blue;
+}
+
+.yell {
+    background-color: yellow;
+    color: purple;
+}
+
+.purp {
+    background-color: purple;
+    color: yellow;
+}
+
+.red {
+    background-color: red;
+    color: green;
+}
+
+.gree {
+    background-color: green;
+    color: red;
+}
+
+/*Fonts*/
+
+.tnr {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ari {
+    font-family: Arial, sans-serif;
+}
+
+.com {
+    font-family: Comic Sans MS, cursive;
+}
+
+.cal {
+    font-family: Calibri, sans-serif;
+}
+
+.hel {
+    font-family: Helvetica, sans-serif;
+}
+
+.wid {
+    font-family: Wingdings, sans-serif;
+}
+
+/*Styles*/
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
