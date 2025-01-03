@@ -1,4 +1,4 @@
-INSTRUCTIONS
+/*INSTRUCTIONS
 ------------
 In this project, you will create a board of to-do items organized into columns. All of the HTML and most of the CSS have been written for you, but the grid property declarations have yet to be added.
 1.
@@ -45,7 +45,7 @@ Inside .card-column, use the grid-auto-rows property to implicitly set rows to 1
 
 
 CSS
----
+---*/
 @font-face {
 	font-family: WorkSans;
 	src: url("https://content.codecademy.com/courses/learn-css-grid/project-ii/Resources/Work_Sans/WorkSans-Regular.ttf");
@@ -237,7 +237,7 @@ input {
   color: #2f2f2f;
 }
 
-
+/*
 HTML
 ----
 <!DOCTYPE html>
@@ -404,4 +404,4 @@ HTML
 		})
 	})
 </script>
-
+*/
