@@ -1,4 +1,4 @@
-1.
+/*1.
 In style.css, find the ruleset for links inside the sidebar (nav a). Add a CSS declaration to transition the text color. Experiment with different values for duration, timing function, and delay until you are satisfied.
 2.
 Next, you’ll animate the “Next” and “Back” buttons’ transparency.
@@ -100,7 +100,7 @@ HTML
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CSS
----
+---*/
 /* Universal Styles */
 
 html {
