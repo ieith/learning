@@ -1,4 +1,4 @@
-Instructions:
+/*Instructions:
 In this project, you will follow step-by-step instructions to fix a to-do web app. All of the HTML and most of the CSS is intact, however, a few Flexbox values are missing.
 Start off by turning some of the elements into flex and inline-flex containers.
 
@@ -28,7 +28,7 @@ Inside the rulesets for .row and .square, add the align-items property with the 
 
 
 CSS:
-
+*/
 /* Universal Styles */
 body {
   margin: 0px;
@@ -126,7 +126,7 @@ footer {
 }
 
 
-
+/*
 HTML:
 <!DOCTYPE html>
 <html>
@@ -196,3 +196,4 @@ HTML:
   </footer>
 </body>
 </html>
+*/
