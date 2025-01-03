@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1 id="title">Page Title</h1>
+            <p id="description">Short explanation within a p element</p>
+        </header>
+            <form id="survey-form">
+                <div class="form">
+                    <label id="name-label" for="name">Name<span class="clue">(required)</span></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required="">
+                </div>
+                <div class="form">
+                    <label id="email-label" for="email">email<span class="clue">(required)</span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required="">
+                </div>
+                <div class="form">
+                    <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                    <input type="number" id="number" name="number" placeholder="Enter your age" required="" min="6" max="110">
+                </div>
+                <div class="form">
+                    <label id="dropdown-label" for="dropdown">Dropdown<span class="clue">(optional)</span></label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="1">dropdown</option>
+                        <option value="2">not dropdown</option>
+                        <option value="3">confused</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label>
+                    <input type="radio" class="radio" name="radio" value="radio" checked="">radio</label>
+                    <label>
+                    <input type="radio" class="radio" name="radio" value="no radio" checked="">no radio</label>
+                </div>
+                <div class="form">
+                    <label>
+                        <input type="checkbox" class="checkbox" name="checkbox" value="checkbox" checked="">checkbox
+                    </label>
+                    <label>
+                        <input type="checkbox" class="checkbox" name="checkbox" value="no checkbox" checked="">no checkbox
+                    </label>
+                </div>
+                <div class="form">
+                    <label id="feedback-label" for="feedback">Feedback<span class="clue">(required)</span></label>
+                    <textarea id="feedback" name="feedback" placeholder="Enter your feedback here..." required=""></textarea> 
+                </div>
+                <div class="form">
+                    <label id="submit-label" for="submit">Submit</label>
+                    <button type="submit" id="submit" name="submit">Submit</button>
+                </div>      
+            </form>
+        <footer id="footer">
+            <p>Footer text</p>
+        </footer>
+    </body>
+</html>
